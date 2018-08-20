@@ -45,7 +45,13 @@ h4 {
     color: steelblue;
     margin: 0px,5px;
 }
-
+.subheading{
+    font-size: 150%;
+    line-height: 100%;
+    padding: 1%;
+    font-weight: 200;
+    color: darkred;
+}
 section {
     top: 0;
     left: 0;
