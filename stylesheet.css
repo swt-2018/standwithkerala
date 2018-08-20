@@ -109,7 +109,6 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 .tablediv{
-    width:100%;
     overflow-x: auto;
     overflow-y: hidden; 
 }
@@ -201,10 +200,8 @@ h4 {
         height: 30%;
     }
 
-    table {
-        overflow-x: auto;
-        overflow-y: hidden;      
-        width: auto;
+    table {          
+        width: 100%;
     }
     
     table a {
