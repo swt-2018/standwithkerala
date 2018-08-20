@@ -101,6 +101,7 @@ table, th, td {
 }
 
 table {
+    border-collapse: collapse;
     border-spacing: 5px;
     width: 80%;
 }
@@ -198,7 +199,9 @@ h4 {
     }
 
     table {
-        border-spacing: 5px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        border-spacing: 0px;
         width: 100%;
     }
     
