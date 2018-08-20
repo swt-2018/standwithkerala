@@ -202,13 +202,13 @@ h4 {
     table {
         overflow-x: auto;
         overflow-y: hidden;      
-        width: 100%;
+        /*width: 100%;*/
     }
     
     table a {
     font-size: 100%;
     text-decoration: none;
-    font-weight: 300%;
+    font-weight: 200%;
     }
     
     #twiter {
