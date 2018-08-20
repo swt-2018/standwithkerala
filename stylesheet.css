@@ -200,8 +200,7 @@ h4 {
 
     table {
         overflow-x: auto;
-        overflow-y: hidden;
-        border-spacing: 0px;
+        overflow-y: hidden;      
         width: 100%;
     }
     
