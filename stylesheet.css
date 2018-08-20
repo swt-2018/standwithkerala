@@ -108,7 +108,9 @@ table {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-
+#tablediv{
+width:100%;
+}
 img {
     width: 50%;
     height: 50%;
