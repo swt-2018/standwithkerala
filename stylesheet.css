@@ -196,11 +196,8 @@ h4 {
         width: 100%;
     }
        table a {
-    font-size: 50%;
+    font-size: 100%;
     }
-    td {
-   display: inline;
-}
     #twiter {
   display:none;
 }
