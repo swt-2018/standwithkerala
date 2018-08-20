@@ -196,10 +196,7 @@ h4 {
         width: 100%;
     }
        table a {
-    color: red;
     font-size: 50%;
-    text-decoration: none;
-    font-weight: bold;
     }
     td {
    display: inline;
