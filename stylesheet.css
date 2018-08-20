@@ -101,7 +101,6 @@ table, th, td {
 }
 
 table {
-    border-collapse: collapse;
     border-spacing: 5px;
     width: 80%;
 }
