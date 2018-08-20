@@ -108,8 +108,8 @@ table {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-#tablediv{
-width:100%;
+.tablediv{
+    width:100%;
 }
 img {
     width: 50%;
