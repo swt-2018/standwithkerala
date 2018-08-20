@@ -195,6 +195,11 @@ h4 {
         border-spacing: 5px;
         width: 100%;
     }
+       table a {
+    color: blue;
+    font-size: 50%;
+    text-decoration: none;
+    font-weight: bold;
     #twiter {
   display:none;
 }
