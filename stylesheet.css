@@ -19,7 +19,7 @@ h1 {
     font-weight: 700;
     text-align: center;
     margin: auto;
-    color:#DB3340 /*#008B8B*/;
+    color: #DB3340 /*#008B8B*/;
 }
 
 h2 {
@@ -30,11 +30,11 @@ h2 {
     text-align: left;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: #354458/*#85144b*/;
+    color: #354458 /*#85144b*/;
 }
 
 h3 {
-     font-size: 2.5rem;
+    font-size: 2.5rem;
     /*font-size: 200%;*/
     font-weight: 400;
     text-align: left;
@@ -45,77 +45,151 @@ h3 {
 
 h4 {
     font-size: 2rem;
-    font-weight: 300;    
+    font-weight: 300;
     text-align: center;
-    margin: auto; 
+    margin: auto;
     padding-top: 1%;
     padding-bottom: 1%;
     color: steelblue;
 }
-.subheading{
+
+address {
+    font-size: 1.2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.subheading {
     font-size: 1.8rem;
-    padding-top:  2%;
+    padding-top: 2%;
     padding-bottom: 2%;
     font-weight: 600;
     color: #008080;
 }
+
 aside {
     font-size: 1.5rem;
-    line-height: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-weight: 650;
+    line-height: 1.5;
+    font-weight: 600;
     color: #008080;
 }
+
 section {
     top: 0;
     left: 0;
     width: 100%;
 }
 
-section div {
-    padding-top: 2%;
-}
+    section div {
+        padding-top: 2%;
+    }
 
-section div h4 {
-    font-size: 2rem;
-    /*font-size: 200%;*/
-    font-weight: 600;
-    text-align: left;
-    color: #20B2AA;
-    padding-bottom: 1%;
-}
-section div p{
-    font-family: "Verdana";
-    color: black; /*#F5F5F5;*/
-    font-size: 1rem;
-    line-height: 120%;
-    text-align: left;
-}
+        section div h4 {
+            font-size: 2rem;
+            /*font-size: 200%;*/
+            font-weight: 600;
+            text-align: left;
+            color: #20B2AA;
+            padding-bottom: 1%;
+        }
+
+        section div p {
+            font-family: "Verdana";
+            color: black; /*#F5F5F5;*/
+            font-size: 1rem;
+            line-height: 120%;
+            text-align: left;
+        }
+
 .clearfix {
     clear: both;
 }
 
 p {
-    font-family: "Alegreya Sans", sans-serif;
+    font-family: Georgia, serif /*"Alegreya Sans", sans-serif*/;
     color: black; /*#F5F5F5;*/
-    font-size: 150%;
+    font-size: 1.5rem;
+    word-spacing: 100%;
     line-height: 120%;
     padding: 0, 3%;
     text-align: justify;
 }
+
+/*.container {
+    position: relative;   
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.container img {
+    vertical-align: middle;
+}
+.HeaderImageText {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 2%;
+}*/
+
+.container {
+    position: relative;
+    width:100%;
+    margin: 0;
+}
+
+.Headerimg {
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 500px;
+    margin: 0;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.HeaderimgText {
+    font-size: 3rem;
+    font-family: Georgia, Garamond, Palatino, serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 700;
+    word-spacing: 150%;
+    color: yellow;
+    text-align: center;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 
 .titlearea {
     margin: auto;
     padding: 2%;
     text-align: center;
 }
-.spanclass{
+/*#Keralalogo {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+}*/
+.spanclass {
     font-size: 2rem;
     font-weight: 400;
     text-align: justify;
     color: #D33F34;
 }
+
 table, th, td {
     border: 1px solid black;
     padding: 5px;
@@ -130,10 +204,12 @@ table {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-.tablediv{
+
+.tablediv {
     overflow-x: auto;
-    overflow-y: hidden; 
+    overflow-y: hidden;
 }
+
 img {
     width: 50%;
     height: 50%;
@@ -142,14 +218,16 @@ img {
     box-sizing: border-box;
 }
 
-#Keralalogo {
-    width: 15%;
-    height: 15%;
-}
-
-#twiter {
+/*#twiter {
     float:right;
     margin-right:3%;
+    width: 10%;
+    height: 10%;
+    border: none;
+}*/
+#twiter {
+    float: left;
+    padding: 1%;
     width: 10%;
     height: 10%;
     border: none;
@@ -163,96 +241,130 @@ a {
     font-weight: bold;
 }
 
-a:link,
-a:visited { color: #0074D9; }
-a:hover   { color: #7FDBFF; }
-a:active  {transition: color .3s;
-  color: #007BE6;
-}
+    a:link,
+    a:visited {
+        color: #0074D9;
+    }
+
+    a:hover {
+        color: #7FDBFF;
+    }
+
+    a:active {
+        transition: color .3s;
+        color: #007BE6;
+    }
 
 .Hashtag {
     margin: 1%;
 }
-#googledoc{
+
+#googledoc {
     /*font-size: 175%;*/
-   /*line-height: 125%;*/
+    /*line-height: 125%;*/
     padding: 2%;
     font-weight: 400;
     border: 5px solid black;
 }
 
 @media screen and (max-width: 768px) {
-h1 {
-    font-size: 2rem;
-    font-weight: 600;
-}
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
 
-h2 {
-    font-size: 1.7rem;
-    /*font-size: 200%;*/
-    font-weight: 500;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-    
-h3 {
-    font-size: 2.2rem;
-    font-weight: 400;
-    color: #FA8072;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
+    h2 {
+        font-size: 1.7rem;
+        /*font-size: 200%;*/
+        font-weight: 600;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 
-h4 {
-    font-size: 1.5rem;
-    font-weight: 200;    
-    margin: auto; 
-    color: steelblue;
-    /*font-size: 150%;*/
-}
-aside {
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding-top:2%;
-    padding-bottom:2%;
-}
-p {       
-    font-size: 1.2rem;
-    padding-top:2%;
-    font-weight: 500;
-    padding-bottom:2%;
-   
-}
-img {
-    width: 100%;
-    height: 100%;
-    margin:0;
-    border: 5px solid black;
-}
+    h3 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #FA8072;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 
-#Keralalogo {
-    width: 30%;
-    height: 30%;
-}
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin: auto;
+        color: steelblue;
+        /*font-size: 150%;*/
+    }
 
-table {          
-    width: 100%;
-}
+    aside {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        line-height: 1;
+    }
 
-table a {
-    font-size: 100%;
-    text-decoration: none;
-    font-weight: 200%;
-}
-.spanclass{
-    font-size: 1.2rem;
+    p {
+        font-size: 1.2rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: 500;
+    }
 
-}
-.subheading{
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-#twiter {
-    display:none;
-}
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: 5px solid black;
+    }
+
+    #Keralalogo {
+        width: 70%;
+        height: 30%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table a {
+        font-size: 100%;
+        text-decoration: none;
+        font-weight: 200;
+    }
+
+    .spanclass {
+        font-size: 1.2rem;
+    }
+
+    .subheading {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #twiter {
+        display: none;
+    }
+
+    .Headerimg {       
+        height: 400px;
+        border: 5px solid black;
+        box-sizing: border-box;
+    }
+
+    .HeaderimgText {
+        font-size: 2rem;
+        font-family: Georgia, Garamond, Palatino, serif;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: 600;
+        word-spacing: 10%;
+    }
+
+    .container .content {
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 }
