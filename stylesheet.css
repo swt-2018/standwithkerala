@@ -137,7 +137,8 @@ p {
 
 .container {
     position: relative;
-    width:100%;
+    top: 2%;
+    width:900px;
     margin: 0;
 }
 
