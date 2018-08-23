@@ -136,14 +136,13 @@ p {
 }*/
 
 .container {
-    position: relative;
-    top: 2%;
-    width:900px;
+    /*position: relative;*/
+    width: 50%;
     margin: auto;
 }
 
 .Headerimg {
-    top: 2%;
+    top: 0;
     left: 0;
     height: 500px;
     margin: 0;
